@@ -22,7 +22,8 @@ namespace sendMail
             sendMail.Program pro = new Program();
             pro.MailMessage_Mai = new MailMessage();
             pro.setSmtpClient("smtp.163.com", 25);
-            pro.setAddressform("zjl198544@163.com", "Zhang#21");
+//todo 密码和邮箱
+            pro.setAddressform("zjl198544@163.com", "");
             pro.sendtheMail();
             Console.ReadLine();
 
